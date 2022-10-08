@@ -12,21 +12,21 @@ $errors=array();
 unset($errors);
 
 //Empty
-if(strlen($name)<1){
+if(strlen($name)<=1){
 $errors[]='Full name field left empty!';
 }
 
 
-if(strlen($email)<1){
+if(strlen($email)<=1){
 $errors[]='Email field left empty!';
 }
 
 
-if(strlen($mobile)<1){
+if(strlen($mobile)<=1){
 $errors[]='Mobile Number field left empty!';
 }
 
-if(strlen($password)<1){
+if(strlen($password)<=1){
 $errors[]='Password field left empty!';
 }
 
